@@ -12,7 +12,7 @@ function randomRGB() {
 
 function godamu(num) {
 
-  if (currDiv > 20) currDiv = 0;
+  if (currDiv > 19) currDiv = 0;
 
   topp = currDiv % 10;
 
@@ -29,6 +29,8 @@ function godamu(num) {
   divbox.css("top", (currDiv % 10 * 28 + 10) + "px");
   divbox.css("right", 0);
   divbox.css("color", randomRGB());
+
+  console.log(currDiv + ": " + divbox.offset().top);
 
   divbox.animate({right: $("#danmu").outerWidth() + "px"}, 10000);
 
@@ -69,7 +71,5 @@ $("#resetbtn").click(function(){
   msgid = 0;
   topp = 0;
 });
-
-
 
 setInterval(shoot, 888);
