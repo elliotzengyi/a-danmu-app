@@ -37,6 +37,7 @@ input {
   border: none;
   background-color: #55967e;
   color: #e4e7ec;
+  border-radius: 5px;
 }
 .btn-default {
   padding: 10px 40px;
@@ -71,7 +72,7 @@ footer {
 @media screen and (max-width:480px) {
   #form {
     display: block;
-    padding-top: 0;
+    padding: 3px 15px 15px;
   }
   #form:after {
     content:".";
@@ -83,14 +84,16 @@ footer {
   button,
   input {
     margin-left: 0;
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: 12px;
+    padding: 5px;
+    font-size: 14px;
     line-height: 18px;
     box-sizing: border-box;
     display: inline-block;
+    border-radius: 2px; 
   }
   .btn-default {
-    width: 65%;
+    width: 67%;
     float: left;
     padding: 10px;
   }

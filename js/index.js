@@ -50,7 +50,6 @@ function updateMsg() {
     godamu(msgid);
     msgid++;
     $("#textbox").val("");
-    $("#textbox").focus();
   }
 }
 
@@ -69,7 +68,6 @@ $("#resetbtn").click(function(){
   currMsg = 0;
   msgid = 0;
   topp = 0;
-  $("#textbox").focus();
 });
 
 
