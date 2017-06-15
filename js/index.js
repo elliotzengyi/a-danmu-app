@@ -26,7 +26,7 @@ function godamu(num) {
     divbox = $("#danmu div:eq(" + currDiv + ")");
   }
 
-  divbox.css("top", (currDiv % 10 * 32 + 10) + "px");
+  divbox.css("top", (currDiv % 10 * 28 + 10) + "px");
   divbox.css("right", 0);
   divbox.css("color", randomRGB());
 
