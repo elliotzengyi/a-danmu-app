@@ -85,12 +85,11 @@ footer {
   input {
     margin-left: 0;
     margin-top: 12px;
-    padding: 5px;
+    padding: 10px;
     font-size: 14px;
     line-height: 18px;
     box-sizing: border-box;
     display: inline-block;
-    border-radius: 2px; 
   }
   .btn-default {
     width: 67%;
